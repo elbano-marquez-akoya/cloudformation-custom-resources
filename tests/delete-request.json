@@ -1,0 +1,13 @@
+{
+  "RequestType": "Delete",
+  "StackId": "the-stack-id-for-delete",
+  "ResponseURL": "cloud-formation-response-url-for-delete",
+  "RequestId": "the-request-id-for-delete",
+  "LogicalResourceId": "the-logical-resource-id-for-delete",
+  "PhysicalResourceId": "the-physical-resource-id-for-delete",
+  "ResourceProperties": {
+    "DestinationCidrBlock": "the-destination-cidr-block-for-delete",
+    "TransitGatewayId": "the-transit-gateway-id-for-delete",
+    "RouteTableId": "the-route-table-id-for-delete"
+  }
+}

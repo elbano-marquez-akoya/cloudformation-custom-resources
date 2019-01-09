@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ehl.TransitGateway.CloudFormation.CustomResource", "src\Ehl.TransitGateway.CloudFormation.CustomResource.csproj", "{FCADC764-E22D-47CB-B1B3-E9F2A8C95200}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ehl.TransitGateway.CloudFormation.CustomResource.Tests", "tests\Ehl.TransitGateway.CloudFormation.CustomResource.Tests.csproj", "{763CD3E2-1B33-400C-8967-F4FA7B50409C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCADC764-E22D-47CB-B1B3-E9F2A8C95200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCADC764-E22D-47CB-B1B3-E9F2A8C95200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCADC764-E22D-47CB-B1B3-E9F2A8C95200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCADC764-E22D-47CB-B1B3-E9F2A8C95200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{763CD3E2-1B33-400C-8967-F4FA7B50409C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{763CD3E2-1B33-400C-8967-F4FA7B50409C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{763CD3E2-1B33-400C-8967-F4FA7B50409C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{763CD3E2-1B33-400C-8967-F4FA7B50409C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D1A4950-AA6E-438C-A220-ABD7D3BF3A75}
+	EndGlobalSection
+EndGlobal

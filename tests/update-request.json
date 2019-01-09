@@ -1,0 +1,17 @@
+{
+  "RequestType": "Update",
+  "StackId": "the-stack-id-for-update",
+  "ResponseURL": "cloud-formation-response-url-for-update",
+  "RequestId": "the-request-id-for-update",
+  "LogicalResourceId": "the-logical-resource-id-for-update",
+  "OldResourceProperties": {
+    "DestinationCidrBlock": "the-old-destination-cidr-block-for-update",
+    "TransitGatewayId": "the-old-transit-gateway-id-for-update",
+    "RouteTableId": "the-old-route-table-id-for-update"
+  },
+  "ResourceProperties": {
+    "DestinationCidrBlock": "the-destination-cidr-block-for-update",
+    "TransitGatewayId": "the-transit-gateway-id-for-update",
+    "RouteTableId": "the-route-table-id-for-update"
+  }
+}

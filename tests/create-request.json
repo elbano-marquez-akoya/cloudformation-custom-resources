@@ -1,0 +1,12 @@
+{
+  "RequestType": "Create",
+  "StackId": "the-stack-id-for-create",
+  "ResponseURL": "cloud-formation-response-url-for-create",
+  "RequestId": "the-request-id-for-create",
+  "LogicalResourceId": "the-logical-resource-id-for-create",
+  "ResourceProperties": {
+    "DestinationCidrBlock": "the-destination-cidr-block-for-create",
+    "TransitGatewayId": "the-transit-gateway-id-for-create",
+    "RouteTableId": "the-route-table-id-for-create"
+  }
+}

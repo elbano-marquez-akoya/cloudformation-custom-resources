@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="create-request.json" />
+    <None Remove="delete-request.json" />
+    <None Remove="update-request.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="create-request.json" />
+    <EmbeddedResource Include="delete-request.json" />
+    <EmbeddedResource Include="update-request.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.Serialization.Json" Version="1.4.0" />
+    <PackageReference Include="AWSSDK.EC2" Version="3.3.78.1" />
+    <PackageReference Include="NSubstitute" Version="3.1.0" />
+    <PackageReference Include="nunit" Version="3.10.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\Ehl.TransitGateway.CloudFormation.CustomResource.csproj" />
+  </ItemGroup>
+
+</Project>
